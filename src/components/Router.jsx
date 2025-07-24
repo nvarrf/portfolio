@@ -73,7 +73,7 @@ const RouterLayout = () => {
                                             : 'bg-[#c0c0c0] border-2 border-t-white border-l-white border-r-black border-b-black hover:bg-[#d0d0d0] active:border-t-black active:border-l-black active:border-r-white active:border-b-white cursor-pointer'
                                             }`}
                                     >
-                                        <Link to="/GraphicDesign" className="text-black no-underline">
+                                        <Link to="/portfolio/Gd" className="text-black no-underline">
                                             Graphics
                                         </Link>
                                     </button>
@@ -88,7 +88,7 @@ const RouterLayout = () => {
                                             : 'bg-[#c0c0c0] border-2 border-t-white border-l-white border-r-black border-b-black hover:bg-[#d0d0d0] active:border-t-black active:border-l-black active:border-r-white active:border-b-white cursor-pointer'
                                             }`}
                                     >
-                                        <Link to="/Programming" className="text-black no-underline">
+                                        <Link to="/portfolio/Prg" className="text-black no-underline">
                                             Programming
                                         </Link>
                                     </button>
@@ -127,9 +127,9 @@ const RouterLayout = () => {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Layout />}>
-                    <Route path="/GraphicDesign" element={<GraphicD />} />
-                    <Route path="/Programming" element={<Programming />} />
+                <Route path="/portfolio/" element={<Layout />}>
+                    <Route path="/portfolio/Gd" element={<GraphicD />} />
+                    <Route path="/portfolio/Prg" element={<Programming />} />
                 </Route>
             </Routes>
         </Router>

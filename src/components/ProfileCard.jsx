@@ -55,7 +55,7 @@ const ProfileCard = () => {
 
                                 <div className='flex items-center gap-2 justify-center lg:justify-start'>
                                     <img src='https://i.ibb.co/q40t4V7/linkdin.png' alt="LinkedIn" className='w-4 h-4' />
-                                    <a href="https://www.linkedin.com/in/nvar-raouf-23235a232/"
+                                    <a href="https://www.linkedin.com/in/nvar-raouf-b03783178/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-blue-600 hover:underline text-sm">
